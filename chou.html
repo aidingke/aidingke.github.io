@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title></title>
+<meta name="keywords" content="积分,抽奖,实物奖品">
+<meta name="description" content="">
+<meta name="renderer" content="webkit">
+<meta name="baidu-site-verification" content="C65DnG1xtb">
+<link type="text/css" rel="stylesheet" media="screen" href="chou/reset.css">
+<link type="text/css" rel="stylesheet" media="screen" href="chou/bootstrap.css">
+<link type="text/css" rel="stylesheet" media="screen" href="chou/simple.css">
+<link type="text/css" rel="stylesheet" media="screen" href="chou/public.css">
+
+
+
+</head>
+<body>
+	
+	
+	<style type="text/css">
+	#site_body { text-align: center; }/*中奖同学：*/#site_body #user_list { text-align: left; position: absolute; top: 265px; left: 240px; width: 550px; border:3px solid #00BEFF; padding: 5px; }#site_body #user_list h5 { line-height: 30px; font-size: 16px; color: red; }#site_body #user_list h5 span { color: #666; font-size: 12px; font-weight: normal; }#site_body #user_list #marquee { display: block; width: 100%; height: 30px; line-height: 30px; overflow: hidden; font-weight: bold; }#site_body #user_list #marquee span { display:block; width: 100%; height: 100%; line-height: 30px; font-size: 14px; }/*抽奖区域*/#site_body .prize_bg { position:relative; margin: 0 auto; margin-top: 20px; width: 100%; height: 1248px; padding: 15px 0; }#site_body button#jion_prize { position: absolute; top: 530px; left: 370px; display: block; border: none; width: 215px; height: 67px; cursor: pointer; }#site_body .prize_bg ul {position: absolute; top: 362px; left: 164px; width: 639px; height: 559px; border:10px solid #fff; overflow: hidden;border-width: 11px 9px 7px 9px; background: #F9E6E8;}#site_body .prize_bg ul li {position: absolute; border: 10px solid #FCA000; width: 116px; height: 100px;line-height: 100px; text-align: center; font-size: 18px; z-index: 888; cursor: pointer;}#site_body .prize_bg ul li img { display: block; position: absolute; left: 0; top:0; width: 116px; height: 100px; }#site_body .prize_bg ul li span {display: none; position: absolute; bottom:0; line-height: 20px; font-size: 12px;color: #fff; background:#666; opacity: 0.8; width: 100%; cursor: pointer;}/*停留状态*/#site_body .prize_bg ul li.on { border-color: #00BEFF; z-index: 999; }#site_body .prize_bg ul li:hover span { display: block; }/*减积分*/#site_body .minus_score {display: none; position: absolute; top: 530px; left: 370px; background: red; font-weight: bold; color: #fff;width: 215px; height: 67px; line-height: 67px; font-size: 20px; border-radius: 5px; z-index: 9999;}/*温馨提示*/#site_body .sweet_tip {position: absolute; top: 610px; left: 325px; text-align: left;width: 340px; font-size: 14px; line-height: 1.6em;font-family: Verdana,SimSun;}#site_body .sweet_tip h5 { font-size: 14px; }/*背景图片*/#site_body .prize_bg { background:#F9E6E8 }#site_body button#jion_prize { background: url(chou/start_bg.png) no-repeat left top; }#site_body .prize_bg ul li { background: #fff url(chou/loading2.gif) no-repeat center; }
+	
+	</style>
+	
+	<div id="site_body"><div id="you_position">您的位置：<a href="#">首页</a>&gt;&gt;<a href="#">积分抽奖</a></div>
+	
+	<div class="prize_bg">
+		<ul><!--输出奖品信息-->
+			<li id="md5_a861a04bc438e87de2d6662a407a54f2" title="笔记本折叠桌">
+				<img src="chou/desktop.jpg"><span>笔记本折叠桌</span>
+			</li>
+			<li id="md5_816ba06f0305ec19eab958df97b7f605" title="迷你键盘">
+				<img src="chou/keyboard.jpg"><span>迷你键盘</span>
+			</li>
+			<li id="md5_0271ece89bb1090a112286e45dd51c8e" title="100积分">
+				<img src="chou/100.png"><span>100积分</span>
+			</li>
+			<li id="md5_7348bbd4187380aae83008e2092f7a72" title="真遗憾！差一点就中了，不要灰心，再来一次吧！">
+				<img src="chou/none.png"><span>真遗憾</span>
+			</li>
+			<li id="md5_c01ffe6781c2a288e874276970bac4df" title="柴静《看见》">
+				<img src="chou/see.jpg"><span>柴静《看见》</span>
+			</li>
+			<li id="md5_179b4ccd806b727b78af2b9987d60289" title="爱国者4G优盘">
+				<img src="chou/udisk.jpg"><span>爱国者4G优盘</span>
+			</li>
+			<li id="md5_ca526fff880bb77e24c3771d29822dc0" title="啊哦哦，奖品擦肩而过，再接再励，再来一次吧！">
+				<img src="chou/none.png"><span>啊哦哦</span>
+			</li>
+			<li id="md5_e1998cf69be2b72cec5f94f8511a477d" title="200积分">
+				<img src="chou/200.png"><span>200积分</span>
+			</li>
+			<li id="md5_c6ceff61267b2bc7c25e787f6488a2a0" title="努力啊！人生不如意十之八九，坚持下去就能成功！">
+				<img src="chou/none.png"><span>努力啊</span>
+			</li>
+			<li id="md5_76c6884178cee1e3104a2e8277754f04" title="400积分">
+				<img src="chou/400.png"><span>400积分</span>
+			</li>
+			<li id="md5_908bb016818a701409d94b603d12d33d" title="生日报">
+				<img src="chou/birthday.jpg"><span>生日报</span>
+			</li>
+			<li id="md5_eb682cb9e32b087e600119f22a6402c0" title="太残酷，我就不相信那么多奖品，我一个都抽不到！再来一次！">
+				<img src="chou/none.png"><span>太残酷</span>
+			</li>
+			<li id="md5_12c5ebc5aefa92d0c31d3ff62b69e865" title="500积分">
+				<img src="chou/500.png"><span>500积分</span>
+			</li>
+			<li id="md5_916b2df9b77f8109f82c65c6b150596f" title="超人毛球修剪器">
+				<img src="chou/pink.jpg"><span>超人毛球修剪器</span>
+			</li>
+			<li id="md5_7602e4533fddcc65b1498626ee80223b" title="差一点，欲速则不达，去上大学网其他频道逛逛再来试试运气吧！">
+				<img src="chou/none.png"><span>差一点</span>
+			</li>
+			<li id="md5_132a740027da33b825b5e6be710f2c9b" title="音乐枕头">
+				<img src="chou/apple.jpg"><span>音乐枕头</span>
+			</li>
+		</ul>
+		<button id="jion_prize" title="开始抽奖"></button>
+		<div style="top: 530px;" class="minus_score">-50 积分</div>
+		<div class="sweet_tip">
+			<h5>温馨提示：</h5>
+			<p>1、只有本站的认证会员才能参与抽奖活动，抽奖一次将消耗您 50 积分，可重复抽奖。</p><p>2、抽中积分奖品，则会立即增加您的积分。抽中实物奖品，您将收到中奖消息，之后我们的工作人员将会联系您。</p><p>3、您可以在 “个人中心” - “抽奖记录” 中查看您的每次抽奖记录。</p>
+			<p>4、我们将会根据您在个人资料中填写的联系方式联系您，请保证您的联系方式有效。</p>
+		</div>
+	</div>
+
+	
+	
+	
+	
+<script src="http://uzise.com/assets/pc/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	//奖品列表
+	var $li = $('.prize_bg ul li');
+	var count = $li.size();
+	var start = 0;
+	var round = false;	
+	var pos = []; //各个格子的定位
+		pos[0] = { 'left':0+'px', 'top':0+'px' };
+		pos[1] = { 'left':126+'px', 'top':0+'px' };
+		pos[2] = { 'left':252+'px', 'top':0+'px' };
+		pos[3] = { 'left':378+'px', 'top':0+'px' };
+		pos[4] = { 'right':0+'px', 'top':0+'px' };
+		pos[5] = { 'top':110+'px', 'right':0+'px' };
+		pos[6] = { 'top':220+'px', 'right':0+'px' };
+		pos[7] = { 'top':330+'px', 'right':0+'px' };
+		pos[8] = { 'top':440+'px', 'right':0+'px' };
+		pos[9] = { 'top':440+'px', 'right':126+'px' };
+		pos[10] = { 'top':440+'px', 'right':252+'px' };
+		pos[11] = { 'top':440+'px', 'right':378+'px' };
+		pos[12] = { 'top':440+'px', 'right':504+'px' };
+		pos[13] = { 'left':0+'px', 'bottom':110+'px' };
+		pos[14] = { 'left':0+'px', 'bottom':220+'px' };
+		pos[15] = { 'left':0+'px', 'bottom':330+'px' };
+	//挨个定位
+	$li.each(function(){
+		var i = $(this).index();
+		$(this).css(pos[i]);
+	});
+	//点击抽奖按钮
+	$('button#jion_prize').click(function(){
+	
+		var $minus_score = $('.minus_score');
+			$minus_score.css('top', 530+'px');
+		var $button = $(this);
+			//$button.attr('disabled', 'disabled');
+		//var query = '/prize/go_prize';
+		//扣除积分
+				$minus_score.fadeIn('slow', function(){
+					$minus_score.animate({
+						top: 350, opacity: 'toggle'
+					}, 1000);
+				});
+				//跑圈,中奖设置
+				var dom_id="0271ece89bb1090a112286e45dd51c8e";
+				
+				var result_pos = $('.prize_bg ul li#md5_'+dom_id).index();
+				var stop_pos = result_pos+1; //落脚点
+				round = setInterval(function(){
+					auto_run();
+					//停止转圈
+					setTimeout(function(){
+						if ( start == stop_pos ) {
+							//闪动格子
+							flash_target(dom_id, 'haha');
+							clearInterval(round); //停止转圈
+							start = 0; //起点复位
+						}
+					}, 3000);
+				}, 60);
+		return false;
+	});
+
+	//奖品格子跑圈
+	function auto_run() {
+		if ( start == count ) { start = 0; }
+		$('.prize_bg ul li:eq('+start+')').addClass('on').siblings('li').removeClass('on');
+		return start++;
+	}
+
+	//闪动某个格子
+	function flash_target(dom_id, msg) {
+		var timer = setInterval(function(){
+			$('.prize_bg ul li#md5_'+dom_id).toggleClass('on').find('span').css('display', 'block');
+		}, 500);
+		var timer2 = setTimeout(function(){
+			$('.prize_bg ul li#md5_'+dom_id).addClass('on');
+			if ( timer2 ) { clearTimeout(timer2); }
+			clearInterval(timer);
+			show_result(msg);
+		}, 2000);
+	}
+
+	//显示中奖信息
+	function show_result(msg) {
+		var dg = dialog({
+			width: 400, 
+			content: msg,
+			button: [{
+		        name: '再抽一次',
+		        callback: function () {
+		            this.close();
+		            $('button#jion_prize').click();
+		        },
+		        focus: true
+		    }, {
+		        name: '去赚积分',
+		        callback: function () {
+		        	window.location.href = '/site/score.html';
+		        }
+		    }],
+			opacity: 0.3,
+			lock: true
+		});
+		//允许再次抽奖
+		$('button#jion_prize').removeAttr('disabled');
+	}
+});
+</script><div id="aside">				<span class="suggest" title="您的建议与反馈">反馈建议</span>			<span class="scroll_top" title="点击滚动到页面顶部">回到顶部</span></div></body></html>
